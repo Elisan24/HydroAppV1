@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+
+    tools:context=".Principal">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="340dp"
+        android:layout_height="424dp"
+        android:layout_gravity="center"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="329dp"
+            android:layout_height="107dp"
+            android:layout_gravity="center"
+            android:background="#9CEBD9"
+            android:orientation="horizontal"
+            android:paddingRight="25dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="185dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="23dp"
+                android:backgroundTint="@color/azul"
+                android:text="Manantiales"
+                android:textColor="@color/black" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="62dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:layout_margin="23dp"
+                android:minHeight="48dp"
+                android:src="@drawable/mar" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout3"
+            android:layout_width="329dp"
+            android:layout_height="107dp"
+            android:layout_gravity="center"
+            android:background="#9CEBD9"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.545"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout2"
+            app:layout_constraintVertical_bias="0.247">
+            <!-- Contenido del segundo LinearLayout -->
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="185dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="23dp"
+                android:backgroundTint="@color/azul"
+                android:text="Infonavit"
+                android:textColor="@color/black" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="62dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:layout_margin="23dp"
+                android:minHeight="48dp"
+                android:src="@drawable/casa" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="329dp"
+            android:layout_height="107dp"
+            android:layout_gravity="center"
+            android:background="#9CEBD9"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.545"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout3"
+            app:layout_constraintVertical_bias="0.903">
+            <!-- Contenido del segundo LinearLayout -->>
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="185dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="23dp"
+                android:backgroundTint="@color/azul"
+                android:text="Minera"
+                android:textColor="@color/black" />
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="62dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:layout_margin="23dp"
+                android:minHeight="48dp"
+                android:src="@drawable/bomba_de_agua" />
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/house1"
+        android:icon="@drawable/hogar"
+        android:title="Inicio"/>
+    <item
+        android:id="@+id/reporte"
+        android:icon="@drawable/reporte_de_negocios"
+        android:title="Reporte"/>
+    <item
+        android:id="@+id/perfil"
+        android:icon="@drawable/user"
+        android:title="Perfil"/>
+
+</menu>

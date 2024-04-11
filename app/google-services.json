@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "204476133451",
+    "firebase_url": "https://hydroapp-fa765-default-rtdb.firebaseio.com",
+    "project_id": "hydroapp-fa765",
+    "storage_bucket": "hydroapp-fa765.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:204476133451:android:c5a2903bd3fb282c3b5dce",
+        "android_client_info": {
+          "package_name": "com.example.hydroapp10"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA7YFnQMDng7tTsa9ujKo5W1UKCNUcAvxg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
